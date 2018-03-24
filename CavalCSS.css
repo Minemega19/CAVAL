@@ -1,3 +1,4 @@
+/*CSS reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,10 +52,27 @@ table {
 .FontTop{
     font-size: 300%;
     padding-top: 2%;
-    float: right;
+    text-align: right;
     margin-right: 2%;
     color: #a7a1a1;
 }
 #Central{
-    background-color: gray;
+    margin-top: 2%;
+    text-align: left;
+   /* background-color: gray*/
+    
+}
+button{
+    margin: 2% 0% 2% 2%;
+    font-size: 20px;
+    width: 15%;
+    padding : 1% 0% 1% 0%;
+}
+/*#cadre1{
+    text-align: center
+*/
+.imgC1{
+    margin-left: 2%;  
+    width: 30%;
+    height: auto;
 }
