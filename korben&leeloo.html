@@ -32,17 +32,17 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <a href="index.html"><img src="img/Background.png" height="80" width="240" alt = ""></a>
+                        <a href="index.php"><img src="img/Background.png" height="80" width="240" alt = ""></a>
                     </div>
                 </div>
                 <div class="Element">
-                    <i   class="far fa-user-circle"></i>
+                    <i class="far fa-heart"></i>
+                </div>
+                <div class="Element">
+                    <i class="far fa-user-circle"></i>
                 </div>
                 <div class="Element">
                     <i class="fas fa-shopping-basket"></i>
-                </div>
-                <div class="Element">
-                    <i class="far fa-heart"></i>
                 </div>
             </div>
         </div>
@@ -61,40 +61,59 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Accueil</a></li>
-                        <li><a href="korben&leeloo.html"><p class="Categorie">Korben</p>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li class="active"><a href="korben&leeloo.html"><p class="Categorie">Korben</p>
                         <p class="Categorie">&Leeloo</p></a></li>
-                        <li><a href=""><p class="Categorie">Vincent</p>
-                        <p class="Categorie">&Mia</p></a></li>
-                        <li><a href=""><p class="Categorie">Qui sommes-nous ?</p></li>
+                        <li><a href=""><p class="Categorie">Korben</p>
+                        <p class="Categorie">&Leeloo</p></a></li>
+                        <li><a href=""><p class="Categorie">Korben</p>
+                        <p class="Categorie">&Leeloo</p></a></li>
                     </ul>
                 </div> 
             </div>
         </div>
     </div>
-<!--
-    <div id = "MainIndex">
-        <div class="PhotoHeader">
-            <img src="img/vincentmia-black-divine.jpg" alt="Smiley face" height="22%" width="22%">
-            <img src="img/vincentmia-sahara-divine.jpg" alt="Smiley face" height="22%" width="22%">
-            <img src="img/vincentmia-black-divine.jpg" alt="Smiley face" height="22%" width="22%">
-        </div>
-    </div>
--->
-    
-    <div>
-        <div class="containerMain">
-                <div class="row">
-                    <img class="imageM1" src="img/vincentmia-black-divine.jpg" alt="Smiley face" height="22%" width="22%">
-                    <a href=""></a>
-                    <img class="imageM1" src="img/vincentmia-sahara-divine.jpg" alt="Smiley face" height="22%" width="22%">
-                    <img class="imageM1" src="img/korbenleeloo-divine-pink.jpg" alt="Smiley face" height="22%" width="22%">
-                    <img class="imageM1" src="img/korbenleeloo-divine-pink.jpg" alt="Smiley face" height="22%" width="22%">
-                </div>
-        </div>
-    </div>
-    <h2 class="titleMain">Nos modèles</h2>
+    <div id = "mainKorben">
+        <div class="containerCarousel">  
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
 
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="item active">
+                        <img src="img/korbenleeloo.jpg" alt="Los Angeles" style="width:100%;">
+                      </div>
+
+                      <div class="item">
+                        <img src="img/korbenleeloo-divine-pink.jpg" alt="Chicago" style="width:100%;">
+                      </div>
+
+                      <div class="item">
+                        <img src="img/korbenleeloo-sahara-lagoon.jpg" alt="New york" style="width:100%;">
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Précédent</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Suivant</span>
+                    </a>
+              </div>
+        </div>
+        <div class="droiteKorben">
+            <p>Test</p>
+        </div>
+    </div>
+    
     <div class="footer-top-area">
         <div class="container">
             <div class="row">
@@ -114,7 +133,7 @@
                     <div class="footer-menu">
                         <h2 class="footer-wid-title">Categories</h2>
                         <ul>
-                            <li><a href="">Les modèles</a></li>
+                            <li><a href="IdeesDeCadeaux.php">Les modèles</a></li>
                             <li><a href="korben&leeloo.html">Korben & leeloo</a></li>
                         </ul>
                     </div>
